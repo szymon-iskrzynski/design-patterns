@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.iskrzynski</groupId>
-    <artifactId>java-starter</artifactId>
+    <artifactId>design-patterns</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <dependencies>
 
@@ -21,8 +21,7 @@
     </properties>
 
     <modules>
-        <module>module1</module>
-        <module>module2</module>
+        <module>builder-fluent-pattern</module>
     </modules>
 
     <build>
@@ -32,15 +31,6 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.0.0-M5</version>
-                </plugin>
-
-                <plugin>
-                    <groupId>org.openjfx</groupId>
-                    <artifactId>javafx-maven-plugin</artifactId>
-                    <version>0.0.5</version>
-                    <configuration>
-                        <mainClass></mainClass>
-                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>

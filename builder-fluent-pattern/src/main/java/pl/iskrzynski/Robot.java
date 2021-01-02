@@ -1,4 +1,4 @@
 package pl.iskrzynski;
 
-public class Main {
+public class Robot {
 }
